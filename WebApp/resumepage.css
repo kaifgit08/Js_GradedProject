@@ -1,0 +1,94 @@
+#resume {
+    margin-left: 500px;
+    position: -webkit-sticky;
+}
+
+input {
+    padding: 5px;
+    padding-right: 20px;
+}
+
+button {
+    margin-left: 100px;
+}
+
+#resumehere {
+    border: 1px solid #ccc;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+header {
+ 
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+
+
+
+.displayView p {
+    padding-right: 30px;
+
+}
+
+.displayView article {
+    background-color: lightpink;
+    text-align: right;
+    margin-right: 900px;
+}
+
+.displayView article h2 {
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: grey;
+    text-align: left;
+}
+
+#no-matches-message {
+    border: 2px solid black ;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 500px;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+  }
+  #container{
+    border: 1px solid black;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+
+  @media only screen and (max-width: 400px) {
+    
+    #resumehere {
+        width: 600px;
+        border: 1px solid #ccc;
+        margin-left: 100px;
+        margin-right: 10px;
+        margin-top: 20px;
+        border-radius: 8px;
+       
+    }
+    img{
+        width: 10px;
+        height: 10px;
+    }
+    .displayView article {
+        background-color: lightpink;
+        text-align: right;
+        margin-right: 100px;
+        z-index: 1;
+    }
+    #container{
+        border: 1px solid black;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    }
